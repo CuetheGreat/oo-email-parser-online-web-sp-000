@@ -8,7 +8,7 @@ class EmailAddressParser
 
   
   def initialize(email_string)
-    puts email_string.split(/([,]\s)?/)
+    puts email_string.split(/([,]\s)/)
   end
   
   def parse
